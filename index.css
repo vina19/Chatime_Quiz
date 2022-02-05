@@ -110,7 +110,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-    background: paleturquoise;
+    background: plum;
 }
 
 .next-button-container{
@@ -131,7 +131,7 @@ input[type=radio]:checked ~ .option {
     outline: none;
 }
 .next-button-container button:hover{
-    background-color: rgb(143, 93, 93);
+    background-color: purple;
 }
 
 .modal-container{
