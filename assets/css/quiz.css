@@ -22,7 +22,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: #4F2956;
-    background: url('./img/full_chatime.jpg');
+    background: url('../img/full_chatime.jpg');
     background-color : #4F2956;
     background-repeat: no-repeat;
     background-size: 20% 20%;
