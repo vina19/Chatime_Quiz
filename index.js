@@ -173,8 +173,6 @@ function checkForAnswer() {
     })
 }
 
-
-
 //called when the next button is called
 function handleNextQuestion() {
     checkForAnswer() //check if player picked right or wrong option
