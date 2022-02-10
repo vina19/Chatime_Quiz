@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ChatimeMN</title>
-  <link rel="stylesheet" href="./assets/css/quiz.css">
+  <link rel="stylesheet" href="../assets/css/quiz.css">
 </head>
 <body onload="NextQuestion(0)">
     <main>
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="modal-button-container">
-                    <button onclick="closeScoreModal()">Continue</button>
+                    <button><a href="../home.html" style="color: aliceblue; font-weight: bold;">Exit</a></button>
                 </div>
 
             </div>
@@ -32,7 +32,7 @@
         <div class="game-quiz-container">
             <div class="game-details-container">
                 <h1 hidden>Score : <span id="player-score"></span> / 10</h1>
-                <h1>Question : <span id="question-number"></span> / 10</h1>
+                <h1>Quiz 1 - Question : <span id="question-number"></span> / 10</h1>
             </div>
 
             <div class="game-question-container">
@@ -78,6 +78,6 @@
             </div>
         </div>
     </main>
-    <script src="./assets/js/quiz.js"></script>
+    <script src="../assets/js/quiz.js"></script>
 </body>
 </html>
