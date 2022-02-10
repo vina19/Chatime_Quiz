@@ -2,92 +2,92 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "What is the recipe for a Regular size Signature Milk Tea with Topping ?",
+        optionA: " 60% ice, 0.8 sugar, and 400 line Signature Milk Tea",
+        optionB: " 80% ice, 1.0 sugar, and 700 line Signature Milk Tea",
+        optionC: " 70% ice, 1.2 sugar, and 500 line Signature Milk Tea",
+        optionD: " 80% ice, 0.8 sugar, and 400 line Signature Milk Tea",
+        correctOption: "optionA"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Which Milk Teas CANNOT be made Hot ?",
+        optionA: " Banana Milk Tea, Coconut Milk Tea, Lychee Milk Tea",
+        optionB: " Strawberry Milk Tea, Banana Milk Tea, Lychee Milk Tea",
+        optionC: " Strawberry Milk Tea, Banana Milk Tea, Lavender Milk Tea",
+        optionD: " Strawberry Milk Tea, Honey Milk Tea, Lychee Milk Tea",
         correctOption: "optionB"
     },
-
+      
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "What is the recipe for a Regular Size Vanilla Chai Milk Tea ?",
+        optionA: "70% ice, 0.8 sugar, 0.5 vanilla, 1.0 chai, 500 line black milk tea",
+        optionB: "80% ice, 1.0 sugar, 1.0 vanilla, 0.5 chai, 500 line black milk tea",
+        optionC: "100% ice, 0.8 sugar, 0.5 vanilla, 1.0 chai, 500 line black milk tea",
+        optionD: "80% ice, 0.8 sugar, 0.5 vanilla, 1.0 chai, 500 line black milk tea",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Which tea base is used to make Chai Milk Tea, Coconut Milk Tea, Vanilla Chai Milk Tea, and Almond Milk Tea ?",
+        optionA: "Roasted Tea",
+        optionB: "Green Tea",
+        optionC: "Black Tea",
+        optionD: "Oolong Tea",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "How much tea do you use for an iced regular and large size Oolong milk tea?",
+        optionA: "200cc for regular and 250cc for large size",
+        optionB: "100cc for regular and 150cc for large size",
+        optionC: "50cc for regular and 100cc for large size",
+        optionD: "150cc for regular and 200cc for large size",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "Which is the best statement to describe the difference between Matcha and Jasmine flavor?",
+        optionA: "Matcha is stronger and earthier. Jasmine is lighter and floral",
+        optionB: "Matcha is stronger and toasty. Jasmine is lighter and floral",
+        optionC: "Matcha is stronger and earthier. Jasmine is lighter and fruity",
+        optionD: "Matcha is stronger and sour. Jasmine is lighter and earthier",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Describe the flavor and texture of the Taro Milk Tea:",
+        optionA: "Vanilla flavor, smooth and watery texture",
+        optionB: "Vanilla flavor, smooth and thick texture",
+        optionC: "Vanilla flavor, thick and grainy texture",
+        optionD: "Vanilla flavor, watery and grainy texture",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "When making an Iced and hot Coconut Milk Tea, what temperature do you heat the tea to?",
+        optionA: "Iced: 104F and Hot: 140F",
+        optionB: "Iced: 150F and Hot: 170F",
+        optionC: "Iced: 110F and Hot: 150F",
+        optionD: "Iced: 140F and Hot: 170F",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "Which option is correct?",
+        optionA: "Milk Teas use almond milk",
+        optionB: "The powder used to make Milk Teas is completely Dairy-free",
+        optionC: "Milk Teas does not use any powder",
+        optionD: "The powder used to make Milk Teas has a bit of milk extract",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Which option is correct?",
+        optionA: "You can add any type of mix ins to Hot and Cold drinks",
+        optionB: "You cannot add any mix ins to Hot and Cold drinks",
+        optionC: "You can add jellies to Hot and Cold drinks",
+        optionD: "You can add Pearls, Pudding, and Whipped Cream to Hot and Cold drinks",
         correctOption: "optionD"
     }
 
