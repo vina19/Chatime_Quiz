@@ -1,92 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio,
 video {
   margin: 0;
   padding: 0;
@@ -184,7 +103,7 @@ html {
 }
 
 body {
-  background-image: url("../img/full_chatime.jpg");
+  background: #1b1f22;
 }
 
 body.is-preload *,
@@ -247,6 +166,7 @@ a {
   border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
 }
 
 a:hover {
@@ -540,7 +460,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("../img/full_chatime.jpg");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ffffff' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
@@ -759,14 +679,14 @@ input[type="radio"] + label:before {
 
 .image:before {
   pointer-events: none;
-  background-image: url("../img/full_chatime.jpg");
+  background-image: url("../img/overlay.png");
   background-color: rgba(19, 21, 25, 0.5);
   border-radius: 4px;
   content: "";
   display: block;
   height: 100%;
   left: 0;
-  opacity: 0.5;
+  opacity: 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -1242,10 +1162,10 @@ button {
 }
 
 #bg:before {
-  -moz-transition: background-color 2.5s ease-in-out;
-  -webkit-transition: background-color 2.5s ease-in-out;
-  -ms-transition: background-color 2.5s ease-in-out;
-  transition: background-color 2.5s ease-in-out;
+  -moz-transition: background-color 1.0s ease-in-out;
+  -webkit-transition: background-color 1.0s ease-in-out;
+  -ms-transition: background-color 1.0s ease-in-out;
+  transition: background-color 1.0s ease-in-out;
   -moz-transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
@@ -1255,7 +1175,7 @@ button {
       rgba(19, 21, 25, 0.5),
       rgba(19, 21, 25, 0.5)
     ),
-    url("../img/full_chatime.jpg");
+    url("../img/overlay.png");
   background-size: auto, 256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
@@ -1712,7 +1632,7 @@ body.is-preload #header .content .inner {
   height: 2.5rem;
   border-radius: 100%;
   background-position: center;
-  background-image: url("../img/full_chatime.jpg");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
   background-size: 20px 20px;
   background-repeat: no-repeat;
 }
