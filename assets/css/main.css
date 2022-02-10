@@ -1196,8 +1196,8 @@ button {
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
   background-image: url("../img/full_chatime.jpg");
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 450px;
+  background-repeat: repeat;
   z-index: 1;
 }
 

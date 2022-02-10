@@ -24,9 +24,9 @@ main{
     background-color: #4F2956;
     background: url('../img/full_chatime.jpg');
     background-color : #4F2956;
-    background-repeat: no-repeat;
-    background-size: 20% 20%;
-    background-position: left top;
+    background-repeat: repeat;
+    background-size: 450px;
+    background-position: center;
 }
 
 .game-quiz-container{
